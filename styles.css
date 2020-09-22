@@ -15,15 +15,16 @@
       top left,
       bottom right;
     background-size: 45% 50%, 80% 80%;
-    padding: 3% 10%;
+    padding: 0% 15%;
   }
   .social-section {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    gap: 2em;
   }
   .header {
     grid-column: span 3;
-    padding: 20%;
+    padding: 15% 20%;
     color: hsl(300, 43%, 22%);
   }
   .header > h1 {
@@ -35,7 +36,7 @@
   }
   .stars {
     grid-column: 4/7;
-    padding: 20% 3%;
+    padding: 15% 3%;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 1em 0;
